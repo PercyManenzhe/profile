@@ -1,0 +1,207 @@
+h1 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 900;
+}
+body {
+  background-image: url("https://img.freepik.com/free-photo/futuristic-sci-fi-space-tunnel-passageway-with-glowing-shiny-lights_181624-10680.jpg?w=1060&t=st=1680034143~exp=1680034743~hmac=ffe6de9f4ab2bc423d28db96bb37b91d979f800076e0405edbdd5408c9ba1089");
+    font-weight: lighter;
+    visibility: visible;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+      flex-wrap: wrap;
+    overflow: auto;
+    height: auto;
+    min-height: 100vh !important;
+    background-color: #f8fafb;
+    color: #e6e6e6;
+    font-family: "Proxima Nova","Verdana","Avenir Next";
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.button--twitter {
+  background: #55acee;
+  color: #fff;
+}
+.button--sm {
+  padding: 0 20px;
+  min-width: 34px;
+  height: 34px;
+  font-size: 14px;
+  line-height: 34px;
+}
+.button--icon, .premium--icon {
+  padding: 0 !important;
+}
+.button {
+  position: relative;
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 30px;
+  min-width: 44px;
+  height: 44px;
+  font-size: 16px;
+  line-height: 44px;
+  transition: 250ms linear;
+  background: #1273eb;
+  color: #fff;
+}
+.link, a, a {
+  font-weight: 600;
+}
+.link, a {
+  color: #0f73ee;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  list-style: none;
+}
+
+.list-inline, .list-inline-icons {
+  padding: 0;
+  letter-spacing: 0.5rem;
+  line-height: 2.5rem;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#footer .footer__menu {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+html .align-left {
+  text-align: left;
+}
+html .font-sm {
+  font-size: 14px;
+}
+html .font-xs {
+  font-size: 12px;
+}
+.button::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.box {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  border-radius: 4px;
+  background-color: #151313;
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.card-white {
+  background-image: url("https://ptpi-my.sharepoint.com/:i:/g/personal/percy_ptpi_co_za/EQreUnW5N7FOvFpdi856vvQBbIom3Icw06g0y9ZMgiq2rw?e=ykileK");
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+.avatar-bordered {
+  width: 70px;
+  margin-bottom: 24px;
+}
+.img-rounded-circle .avatar-bordered{
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+#introduction p {
+  margin-bottom: 50px;
+}
